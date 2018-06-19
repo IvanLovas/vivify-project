@@ -58,5 +58,24 @@ header {
     }
 }
 
+main {
+    background: url("../Images/consultancy.jpg");
+    background-size: cover;
+    padding: 250px 200px;
+
+    h1 {
+        color: white;
+        font-size: 3em;
+    }
+
+    hr {
+        display: block;
+        height: 1px;
+        border-top: 3px solid $light-grey;
+        margin: 1em 0;
+        width: 5em;
+    }
+}
+
 @media screen and (max-width: 1250px) {}
 @media screen and (max-width: 640px) {}

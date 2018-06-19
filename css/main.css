@@ -45,4 +45,18 @@ header {
           color: red;
           border-bottom: 2px solid red; }
 
+main {
+  background: url("../Images/consultancy.jpg");
+  background-size: cover;
+  padding: 250px 200px; }
+  main h1 {
+    color: white;
+    font-size: 3em; }
+  main hr {
+    display: block;
+    height: 1px;
+    border-top: 3px solid #d3d3d3;
+    margin: 1em 0;
+    width: 5em; }
+
 /*# sourceMappingURL=main.css.map */
