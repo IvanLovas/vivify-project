@@ -1,0 +1,7 @@
+@import 'vars';
+@import 'mixins';
+
+@include main;
+
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 640px) {}
