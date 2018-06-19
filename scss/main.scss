@@ -3,5 +3,60 @@
 
 @include main;
 
+header {
+    width: 100%;
+    @include clearfix;
+
+    .header_logo {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid $light-grey;
+        
+        img {
+            display: inline-block;
+            width: 60px;
+        }
+        
+        .header_logo_heading {
+            display: inline-block;
+            height: 60px;
+            text-align: left;
+
+            h4 {
+                font-size: 1.3em;
+                color: $head-col;
+            }
+
+            h5 {
+                font-size: 0.8em;
+                text-transform: uppercase;
+                color: $font-col;
+            }
+        }
+    }
+
+    nav {
+        width: 100%;
+
+        ul {
+            width: 100%;
+            padding-left: 10%;
+
+            li {
+                display: inline-block;
+                padding: 1em 0;
+                margin: 0 1em;
+                color: $head-col;
+
+                &:hover {
+                    color: red;
+                    border-bottom: 2px solid red;
+                }
+
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1250px) {}
 @media screen and (max-width: 640px) {}
