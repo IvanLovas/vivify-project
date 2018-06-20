@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Encode Sans Semi Expanded", sans-serif;
+  color: #00001a;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -55,5 +56,82 @@ main {
     border-top: 3px solid #d3d3d3;
     margin: 1rem 0;
     width: 5rem; }
+
+section {
+  padding: 3rem 13rem 0; }
+
+.stats-section {
+  display: flex;
+  flex-direction: row; }
+
+.stats-section__column {
+  padding: 2rem; }
+
+.stats-section__column--first {
+  width: 25%; }
+  .stats-section__column--first h3 {
+    font-size: 2rem;
+    color: #00001a;
+    margin-bottom: 1rem; }
+  .stats-section__column--first li {
+    margin: 1rem 0 1rem;
+    border-bottom: 1px solid #edf1f8;
+    padding: 0.2rem; }
+  .stats-section__column--first a {
+    text-decoration: none;
+    color: #00001a;
+    line-height: 1.5rem; }
+    .stats-section__column--first a:hover {
+      color: #ff0000; }
+  .stats-section__column--first .stats-section__brochure {
+    background-color: #edf1f8;
+    padding: 3rem 2.5rem; }
+    .stats-section__column--first .stats-section__brochure h4 {
+      font-size: 1.5rem;
+      color: #00001a; }
+    .stats-section__column--first .stats-section__brochure p {
+      color: #00001a;
+      margin: 3rem 0 3rem; }
+    .stats-section__column--first .stats-section__brochure a {
+      color: #fff;
+      background-color: #ff0000;
+      padding: 1rem 2rem;
+      font-weight: bold; }
+
+.stats-section__column--second {
+  width: 40%; }
+  .stats-section__column--second div {
+    background-color: #edf1f8;
+    transform: skew(-30deg, 0deg); }
+    .stats-section__column--second div h2 {
+      color: #00001a;
+      font-size: 2.4rem;
+      margin-left: 2rem;
+      transform: skew(30deg, 0deg); }
+      .stats-section__column--second div h2 span {
+        font-weight: normal;
+        font-size: 2.6rem; }
+  .stats-section__column--second hr {
+    display: block;
+    height: 1px;
+    border-top: 4px solid #ff0000;
+    margin: 1rem 0;
+    width: 3rem; }
+  .stats-section__column--second h4 {
+    color: #00001a;
+    margin-bottom: 1rem;
+    font-size: 1.2rem; }
+  .stats-section__column--second p {
+    text-align: justify;
+    color: #003d66; }
+
+.stats-section__column--third {
+  width: 30%; }
+  .stats-section__column--third p {
+    color: #003d66; }
+  .stats-section__column--third img {
+    width: 90%;
+    height: 70%;
+    margin-top: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
