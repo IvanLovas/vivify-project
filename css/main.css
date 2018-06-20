@@ -6,57 +6,54 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-header {
-  width: 100%; }
-  header:before, header:after {
-    content: "";
-    display: table; }
-  header:after {
-    clear: both; }
-  header .header_logo {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #d3d3d3; }
-    header .header_logo img {
-      display: inline-block;
-      width: 60px; }
-    header .header_logo .header_logo_heading {
-      display: inline-block;
-      height: 60px;
-      text-align: left; }
-      header .header_logo .header_logo_heading h4 {
-        font-size: 1.3em;
-        color: #00001a; }
-      header .header_logo .header_logo_heading h5 {
-        font-size: 0.8em;
-        text-transform: uppercase;
-        color: #b3b3b3; }
-  header nav {
-    width: 100%; }
-    header nav ul {
-      width: 100%;
-      padding-left: 10%; }
-      header nav ul li {
-        display: inline-block;
-        padding: 1em 0;
-        margin: 0 1em;
-        color: #00001a; }
-        header nav ul li:hover {
-          color: red;
-          border-bottom: 2px solid red; }
+.header {
+  display: flex;
+  flex-direction: column; }
+
+.header__logo {
+  display: flex;
+  justify-content: center; }
+  .header__logo .header__img {
+    display: inline-block; }
+    .header__logo .header__img img {
+      width: 4rem; }
+  .header__logo .header__name {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 1rem; }
+    .header__logo .header__name h4 {
+      font-size: 1.3rem;
+      color: #00001a; }
+    .header__logo .header__name h5 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      color: #b3b3b3; }
+
+.header__menu {
+  display: flex;
+  padding-left: 13rem; }
+  .header__menu a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    color: #00001a; }
+    .header__menu a:hover {
+      color: #ff0000;
+      border-bottom: 2px solid #ff0000; }
 
 main {
   background: url("../Images/consultancy.jpg");
   background-size: cover;
-  padding: 250px 200px; }
+  padding: 18rem 13rem; }
   main h1 {
     color: white;
-    font-size: 3em; }
+    font-size: 3rem; }
   main hr {
     display: block;
     height: 1px;
     border-top: 3px solid #d3d3d3;
-    margin: 1em 0;
-    width: 5em; }
+    margin: 1rem 0;
+    width: 5rem; }
 
 /*# sourceMappingURL=main.css.map */

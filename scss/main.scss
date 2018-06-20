@@ -3,79 +3,75 @@
 
 @include main;
 
-header {
-    width: 100%;
-    @include clearfix;
+.header {
+    display: flex;
+    flex-direction: column;
+}
 
-    .header_logo {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid $light-grey;
-        
+.header__logo {
+        display: flex;
+        justify-content: center;
+
+    .header__img {
+        display: inline-block;
+            
         img {
-            display: inline-block;
-            width: 60px;
-        }
-        
-        .header_logo_heading {
-            display: inline-block;
-            height: 60px;
-            text-align: left;
-
-            h4 {
-                font-size: 1.3em;
-                color: $head-col;
-            }
-
-            h5 {
-                font-size: 0.8em;
-                text-transform: uppercase;
-                color: $font-col;
-            }
+            width: 4rem;
         }
     }
 
-    nav {
-        width: 100%;
+    .header__name {
+        display: inline-block;
+        padding-top: 1rem;
+        padding-left: 1rem;
 
-        ul {
-            width: 100%;
-            padding-left: 10%;
-
-            li {
-                display: inline-block;
-                padding: 1em 0;
-                margin: 0 1em;
-                color: $head-col;
-
-                &:hover {
-                    color: red;
-                    border-bottom: 2px solid red;
-                }
-
-            }
+        h4 {          
+            font-size: 1.3rem;
+            color: $head-col;
         }
+
+        h5 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: $font-col;
+        }
+    }
+}
+
+.header__menu {
+        display: flex;
+        padding-left: 13rem;
+            
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 1rem 0;
+            margin: 0 1rem;
+            color: $head-col;
+
+            &:hover {
+                color: $red-col;
+                border-bottom: 2px solid $red-col;
+        }
+
     }
 }
 
 main {
     background: url("../Images/consultancy.jpg");
     background-size: cover;
-    padding: 250px 200px;
+    padding: 18rem 13rem;
 
     h1 {
         color: white;
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     hr {
         display: block;
         height: 1px;
         border-top: 3px solid $light-grey;
-        margin: 1em 0;
-        width: 5em;
+        margin: 1rem 0;
+        width: 5rem;
     }
 }
-
-@media screen and (max-width: 1250px) {}
-@media screen and (max-width: 640px) {}
