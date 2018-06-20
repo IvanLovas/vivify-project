@@ -65,7 +65,7 @@ section {
   flex-direction: row; }
 
 .stats-section__column {
-  padding: 2rem; }
+  padding: 0 2rem; }
 
 .stats-section__column--first {
   width: 25%; }
@@ -111,12 +111,6 @@ section {
       .stats-section__column--second div h2 span {
         font-weight: normal;
         font-size: 2.6rem; }
-  .stats-section__column--second hr {
-    display: block;
-    height: 1px;
-    border-top: 4px solid #ff0000;
-    margin: 1rem 0;
-    width: 3rem; }
   .stats-section__column--second h4 {
     color: #00001a;
     margin-bottom: 1rem;
@@ -124,6 +118,13 @@ section {
   .stats-section__column--second p {
     text-align: justify;
     color: #003d66; }
+
+hr {
+  display: block;
+  height: 1px;
+  border-top: 4px solid #ff0000;
+  margin: 1rem 0;
+  width: 3rem; }
 
 .stats-section__column--third {
   width: 30%; }
@@ -133,5 +134,61 @@ section {
     width: 90%;
     height: 70%;
     margin-top: 2rem; }
+
+.solutions-section {
+  display: flex;
+  flex-direction: row; }
+
+.solutions-section__column {
+  padding: 0 2rem; }
+
+.solutions-section__column--first {
+  background-color: #ff0000;
+  padding: 2rem;
+  width: 26%;
+  margin-left: 2rem; }
+  .solutions-section__column--first h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem; }
+  .solutions-section__column--first p {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1.2rem; }
+  .solutions-section__column--first a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.7rem 1.3rem; }
+    .solutions-section__column--first a:hover {
+      background: #fff;
+      color: #ff0000; }
+
+.solutions-section__column--second {
+  margin-left: 2.5rem;
+  width: 100%; }
+  .solutions-section__column--second h2 {
+    color: #00001a;
+    font-size: 2.4rem;
+    margin-bottom: 2rem; }
+    .solutions-section__column--second h2 span {
+      font-weight: normal;
+      font-size: 2.6rem; }
+
+.solutions-section__chemicals {
+  display: flex; }
+  .solutions-section__chemicals div {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #edf1f8; }
+    .solutions-section__chemicals div h4 {
+      color: #ff0000;
+      font-size: 1.2rem;
+      margin-bottom: 1rem; }
+    .solutions-section__chemicals div p {
+      color: #003d66; }
 
 /*# sourceMappingURL=main.css.map */
