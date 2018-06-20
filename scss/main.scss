@@ -40,13 +40,15 @@
 
 .header__menu {
         display: flex;
-        padding-left: 13rem;
+        padding-left: 8rem;
+        border-top: 1px solid $light-grey;
             
         a {
             text-decoration: none;
             display: inline-block;
             padding: 1rem 0;
             margin: 0 1rem;
+            font-size: 0.8rem;
             color: $head-col;
 
             &:hover {
@@ -60,7 +62,7 @@
 main {
     background: url("../Images/consultancy.jpg");
     background-size: cover;
-    padding: 18rem 13rem;
+    padding: 18rem 10rem;
 
     h1 {
         color: white;
@@ -77,7 +79,7 @@ main {
 }
 
 section {
-    padding: 3rem 13rem 0;
+    padding: 3rem 8rem 0;
 }
 
 .stats-section {
@@ -90,10 +92,10 @@ section {
 }
 
 .stats-section__column--first {
-    width: 25%;   
+    width: 30%;   
     
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: $head-col;
         margin-bottom: 1rem;
     }
@@ -101,13 +103,14 @@ section {
     li {
         margin: 1rem 0 1rem;
         border-bottom: 1px solid $light-blue;
-        padding: 0.2rem;
+        padding: 0.1rem;
     }
 
     a {
         text-decoration: none;
         color: $head-col;
         line-height: 1.5rem;
+        font-size: 0.9rem;
 
         &:hover {
             color: $red-col;
@@ -116,7 +119,7 @@ section {
 
     .stats-section__brochure {
         background-color: $light-blue;
-        padding: 3rem 2.5rem;
+        padding: 2rem 1.5rem;
 
         h4 {
             font-size: 1.5rem;
@@ -125,21 +128,22 @@ section {
         }
 
         p {
+            font-size: 0.8rem;
             color: $head-col;
-            margin: 3rem 0 3rem;
+            margin: 2rem 0;
         }
 
         a {
             color: $white-col;
             background-color: $red-col;
-            padding: 1rem 2rem;
+            padding: 0.5rem 1rem;
             font-weight: bold;
         }
     }
 }
 
 .stats-section__column--second {
-    width: 40%;
+    width: 50%;
 
     div {
         background-color: $light-blue;
@@ -147,7 +151,7 @@ section {
 
     h2 {
         color: $head-col;
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin-left: 2rem;
         transform: skew(30deg, 0deg);
        
@@ -168,6 +172,7 @@ section {
     p {
         text-align: justify;
         color: $section-font;
+        font-size: 0.8rem;
     }
 }
 
@@ -180,14 +185,15 @@ hr {
 }
 
 .stats-section__column--third {
-    width: 30%;
+    width: 40%;
 
     p {
         color: $section-font;
+        font-size: 0.8rem;
     }
 
     img {
-        width: 90%;
+        width: 100%;
         height: 70%;
         margin-top: 2rem;
     }
@@ -211,13 +217,13 @@ hr {
 
     h4 {
         color: $white-col;
-        font-size: 1.2rem; 
+        font-size: 1rem; 
         margin-bottom: 1rem;
     }
 
     p {
         color: $white-col;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: bold;
         line-height: 1.2rem;
     }
@@ -228,7 +234,7 @@ hr {
         text-decoration: none;
         border: 1px solid $white-col;
         color: $white-col;
-        padding: 0.7rem 1.3rem;
+        padding: 0.5rem 1rem;
 
         &:hover {
             background: $white-col;
@@ -245,7 +251,7 @@ hr {
 
 h2 {
     color: $head-col;
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 
     span {
@@ -264,25 +270,26 @@ h2 {
 
         h4 {
             color: $red-col;
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-bottom: 1rem; 
         }
 
         p {
-           color: $section-font; 
+           color: $section-font;
+           font-size: 0.8rem; 
         }
     }
 
 }
 
 .expertise-section {
-    padding-left: 36rem;
+    padding-left: 28rem;
 
     h4 {
         text-transform: uppercase;
         border-top: 1px solid $light-grey;
         padding: 1rem 0;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     h4:last-child {
@@ -292,12 +299,13 @@ h2 {
     p {
         color: $section-font;
         margin-bottom: 1rem;
+        font-size: 0.8rem;
     }
 }
 
 .info-section {
     display: flex;
-    padding: 1rem 15rem;
+    padding: 1rem 10rem;
     margin-top: 4rem;
     background: $light-blue;
 }
@@ -308,21 +316,22 @@ h2 {
 
 .info-section__part--left {
     h4 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 2rem 0;
     }
 
     img {
-        width: 2rem;
+        width: 1.5rem;
     }
 }
 
 .info-section__part--right {
 
     h5 {
+        font-size: 1rem;
         text-transform: uppercase;
         font-size: 1rem;
-        padding: 2rem;
+        padding: 2rem 0;
 
     }
 
@@ -333,18 +342,21 @@ h2 {
             display: inline;
             color: $section-font;
             font-size: 1rem;
-            line-height: 3.2rem;
+            line-height: 2.6rem;
             margin-left: 1rem;
+            font-size: 0.8rem;
             
         }   
 
         a {
+            font-size: 0.8rem;
             float: right;
             text-decoration: none;
-            padding: 1rem 2rem;
+            padding: 0.8rem 1.8rem;
             color: $white-col;
             background: $red-col;
             font-weight: bold;
         }
     }
 }
+
