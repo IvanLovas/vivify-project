@@ -205,4 +205,39 @@ h2 {
     color: #003d66;
     margin-bottom: 1rem; }
 
+.info-section {
+  display: flex;
+  padding: 1rem 15rem;
+  margin-top: 4rem;
+  background: #edf1f8; }
+
+.info-section__part {
+  width: 50%; }
+
+.info-section__part--left h4 {
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+.info-section__part--left img {
+  width: 2rem; }
+
+.info-section__part--right h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 2rem; }
+.info-section__part--right div {
+  border: 1px solid #d3d3d3; }
+  .info-section__part--right div p {
+    display: inline;
+    color: #003d66;
+    font-size: 1rem;
+    line-height: 3.2rem;
+    margin-left: 1rem; }
+  .info-section__part--right div a {
+    float: right;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #fff;
+    background: #ff0000;
+    font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */
