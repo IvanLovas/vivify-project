@@ -170,13 +170,14 @@ hr {
 .solutions-section__column--second {
   margin-left: 2.5rem;
   width: 100%; }
-  .solutions-section__column--second h2 {
-    color: #00001a;
-    font-size: 2.4rem;
-    margin-bottom: 2rem; }
-    .solutions-section__column--second h2 span {
-      font-weight: normal;
-      font-size: 2.6rem; }
+
+h2 {
+  color: #00001a;
+  font-size: 2.4rem;
+  margin-bottom: 2rem; }
+  h2 span {
+    font-weight: normal;
+    font-size: 2.6rem; }
 
 .solutions-section__chemicals {
   display: flex; }
@@ -190,5 +191,18 @@ hr {
       margin-bottom: 1rem; }
     .solutions-section__chemicals div p {
       color: #003d66; }
+
+.expertise-section {
+  padding-left: 36rem; }
+  .expertise-section h4 {
+    text-transform: uppercase;
+    border-top: 1px solid #d3d3d3;
+    padding: 1rem 0;
+    font-size: 1.2rem; }
+  .expertise-section h4:last-child {
+    border-bottom: 1px solid #d3d3d3; }
+  .expertise-section p {
+    color: #003d66;
+    margin-bottom: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
