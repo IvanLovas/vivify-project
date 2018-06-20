@@ -86,7 +86,7 @@ section {
 }
 
 .stats-section__column {
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .stats-section__column--first {
@@ -155,16 +155,8 @@ section {
         span {
             font-weight: normal;
             font-size: 2.6rem;
+            }
         }
-    }
-}
-
-    hr {
-        display: block;
-        height: 1px;
-        border-top: 4px solid $red-col;
-        margin: 1rem 0;
-        width: 3rem;
     }
 
     h4 {
@@ -177,6 +169,14 @@ section {
         text-align: justify;
         color: $section-font;
     }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 4px solid $red-col;
+    margin: 1rem 0;
+    width: 3rem;
 }
 
 .stats-section__column--third {
@@ -194,3 +194,83 @@ section {
     
 }
 
+.solutions-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.solutions-section__column {
+    padding: 0 2rem;
+}
+
+.solutions-section__column--first {
+    background-color: $red-col;
+    padding: 2rem;
+    width: 26%;
+    margin-left: 2rem;
+
+    h4 {
+        color: $white-col;
+        font-size: 1.2rem; 
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: $white-col;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        border: 1px solid $white-col;
+        color: $white-col;
+        padding: 0.7rem 1.3rem;
+
+        &:hover {
+            background: $white-col;
+            color: $red-col;
+
+        }
+    }
+}
+
+.solutions-section__column--second {
+    margin-left: 2.5rem;
+    width: 100%;
+
+    h2 {
+        color: $head-col;
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+
+        span {
+            font-weight: normal;
+            font-size: 2.6rem;
+        }
+    }
+}
+
+.solutions-section__chemicals {
+    display: flex;
+
+    div {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: $light-blue;
+
+        h4 {
+            color: $red-col;
+            font-size: 1.2rem;
+            margin-bottom: 1rem; 
+        }
+
+        p {
+           color: $section-font; 
+        }
+    }
+
+}
