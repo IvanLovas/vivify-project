@@ -247,5 +247,45 @@ h2 {
     }
 }
 
+@media #{$tablet} {
+    .mt-l-stats-section {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 4rem;
+
+        .mt-c-stats-section__column {
+            width: 100%;
+        }
+
+        .mt-c-stats-section-column--first {
+            order: 3;
+            width: 100%;
+
+            h3, ul {
+                text-align: center;
+            }
+
+             li {
+                display: inline-block;
+                padding-right: 1rem;
+            }
+        }
+    }
+    .mt-c-stats-section-column--third {
+        margin-top: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        img {
+            width: 60%;
+            
+        }
+    }
+
+    .mt-l-expertise-section {
+        padding: 2rem 10rem 0;
+    }
+        
+}
+
 
 
