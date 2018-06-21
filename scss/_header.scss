@@ -1,0 +1,55 @@
+.mt-c-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-c-header__logo {
+        display: flex;
+        justify-content: center;
+
+    .mt-c-header__img {
+        display: inline-block;
+            
+        img {
+            width: 4rem;
+        }
+    }
+
+    .mt-c-header__name {
+        display: inline-block;
+        padding-top: 1rem;
+        padding-left: 1rem;
+
+        h4 {          
+            font-size: 1.3rem;
+            color: $head-col;
+        }
+
+        h5 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: $font-col;
+        }
+    }
+}
+
+.mt-c-header__menu {
+        display: flex;
+        padding-left: 8rem;
+        border-top: 1px solid $light-grey;
+            
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 1rem 0;
+            margin: 0 1rem;
+            font-size: 0.8rem;
+            color: $head-col;
+
+            &:hover {
+                color: $red-col;
+                border-bottom: 2px solid $red-col;
+        }
+
+    }
+}
