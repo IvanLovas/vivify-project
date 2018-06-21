@@ -26,27 +26,44 @@
 
     }
 
-    div {
-        border: 1px solid $light-grey;
-        
-        p {
-            display: inline;
-            color: $section-font;
+    form {
+        .email {
+            padding: 1rem;
+            width: 20rem;
             font-size: 1rem;
-            line-height: 2.6rem;
-            margin-left: 1rem;
-            font-size: 0.8rem;
-            
-        }   
+            background: $light-blue;
+            border: 1px solid $light-grey;
+        }
 
-        a {
-            font-size: 0.8rem;
-            float: right;
-            text-decoration: none;
-            padding: 0.8rem 1.8rem;
+        .submit {
             color: $white-col;
             background: $red-col;
-            font-weight: bold;
+            padding: 1rem 3rem;
+            font-size: 1rem;
         }
     }
+
+    // div {
+    //     border: 1px solid $light-grey;
+        
+    //     p {
+    //         display: inline;
+    //         color: $section-font;
+    //         font-size: 1rem;
+    //         line-height: 2.6rem;
+    //         margin-left: 1rem;
+    //         font-size: 0.8rem;
+            
+    //     }   
+
+    //     a {
+    //         font-size: 0.8rem;
+    //         float: right;
+    //         text-decoration: none;
+    //         padding: 0.8rem 1.8rem;
+    //         color: $white-col;
+    //         background: $red-col;
+    //         font-weight: bold;
+    //     }
+    // }
 }

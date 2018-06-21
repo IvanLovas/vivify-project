@@ -81,23 +81,17 @@ footer {
   text-transform: uppercase;
   font-size: 1rem;
   padding: 2rem 0; }
-.mt-c-info-section-part--right div {
+.mt-c-info-section-part--right form .email {
+  padding: 1rem;
+  width: 20rem;
+  font-size: 1rem;
+  background: #edf1f8;
   border: 1px solid #d3d3d3; }
-  .mt-c-info-section-part--right div p {
-    display: inline;
-    color: #003d66;
-    font-size: 1rem;
-    line-height: 2.6rem;
-    margin-left: 1rem;
-    font-size: 0.8rem; }
-  .mt-c-info-section-part--right div a {
-    font-size: 0.8rem;
-    float: right;
-    text-decoration: none;
-    padding: 0.8rem 1.8rem;
-    color: #fff;
-    background: #ff0000;
-    font-weight: bold; }
+.mt-c-info-section-part--right form .submit {
+  color: #fff;
+  background: #ff0000;
+  padding: 1rem 3rem;
+  font-size: 1rem; }
 
 * {
   margin: 0;
@@ -300,6 +294,9 @@ h2 {
 
   .mt-l-expertise-section {
     padding: 2rem 10rem 0; }
+
+  .mt-c-info-section-part--right {
+    margin-left: 3rem; }
 
   footer nav {
     display: none; }
