@@ -7,52 +7,52 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.header {
+.mt-c-header {
   display: flex;
   flex-direction: column; }
 
-.header__logo {
+.mt-c-header__logo {
   display: flex;
   justify-content: center; }
-  .header__logo .header__img {
+  .mt-c-header__logo .mt-c-header__img {
     display: inline-block; }
-    .header__logo .header__img img {
+    .mt-c-header__logo .mt-c-header__img img {
       width: 4rem; }
-  .header__logo .header__name {
+  .mt-c-header__logo .mt-c-header__name {
     display: inline-block;
     padding-top: 1rem;
     padding-left: 1rem; }
-    .header__logo .header__name h4 {
+    .mt-c-header__logo .mt-c-header__name h4 {
       font-size: 1.3rem;
       color: #00001a; }
-    .header__logo .header__name h5 {
+    .mt-c-header__logo .mt-c-header__name h5 {
       font-size: 0.8rem;
       text-transform: uppercase;
       color: #b3b3b3; }
 
-.header__menu {
+.mt-c-header__menu {
   display: flex;
   padding-left: 8rem;
   border-top: 1px solid #d3d3d3; }
-  .header__menu a {
+  .mt-c-header__menu a {
     text-decoration: none;
     display: inline-block;
     padding: 1rem 0;
     margin: 0 1rem;
     font-size: 0.8rem;
     color: #00001a; }
-    .header__menu a:hover {
+    .mt-c-header__menu a:hover {
       color: #ff0000;
       border-bottom: 2px solid #ff0000; }
 
-main {
+.mt-c-consultancy {
   background: url("../Images/consultancy.jpg");
   background-size: cover;
   padding: 18rem 10rem; }
-  main h1 {
-    color: white;
+  .mt-c-consultancy h1 {
+    color: #fff;
     font-size: 3rem; }
-  main hr {
+  .mt-c-consultancy hr {
     display: block;
     height: 1px;
     border-top: 3px solid #d3d3d3;
@@ -62,64 +62,64 @@ main {
 section {
   padding: 3rem 8rem 0; }
 
-.stats-section {
+.mt-l-stats-section {
   display: flex;
   flex-direction: row; }
 
-.stats-section__column {
+.mt-c-stats-section__column {
   padding: 0 2rem; }
 
-.stats-section__column--first {
+.mt-c-stats-section-column--first {
   width: 30%; }
-  .stats-section__column--first h3 {
+  .mt-c-stats-section-column--first h3 {
     font-size: 1.5rem;
     color: #00001a;
     margin-bottom: 1rem; }
-  .stats-section__column--first li {
+  .mt-c-stats-section-column--first li {
     margin: 1rem 0 1rem;
     border-bottom: 1px solid #edf1f8;
     padding: 0.1rem; }
-  .stats-section__column--first a {
+  .mt-c-stats-section-column--first a {
     text-decoration: none;
     color: #00001a;
     line-height: 1.5rem;
     font-size: 0.9rem; }
-    .stats-section__column--first a:hover {
+    .mt-c-stats-section-column--first a:hover {
       color: #ff0000; }
-  .stats-section__column--first .stats-section__brochure {
+  .mt-c-stats-section-column--first .mt-c-stats-section__brochure {
     background-color: #edf1f8;
     padding: 2rem 1.5rem; }
-    .stats-section__column--first .stats-section__brochure h4 {
+    .mt-c-stats-section-column--first .mt-c-stats-section__brochure h4 {
       font-size: 1.5rem;
       color: #00001a; }
-    .stats-section__column--first .stats-section__brochure p {
+    .mt-c-stats-section-column--first .mt-c-stats-section__brochure p {
       font-size: 0.8rem;
       color: #00001a;
       margin: 2rem 0; }
-    .stats-section__column--first .stats-section__brochure a {
+    .mt-c-stats-section-column--first .mt-c-stats-section__brochure a {
       color: #fff;
       background-color: #ff0000;
       padding: 0.5rem 1rem;
       font-weight: bold; }
 
-.stats-section__column--second {
+.mt-c-stats-section-column--second {
   width: 50%; }
-  .stats-section__column--second div {
+  .mt-c-stats-section-column--second div {
     background-color: #edf1f8;
     transform: skew(-30deg, 0deg); }
-    .stats-section__column--second div h2 {
+    .mt-c-stats-section-column--second div h2 {
       color: #00001a;
       font-size: 2rem;
       margin-left: 2rem;
       transform: skew(30deg, 0deg); }
-      .stats-section__column--second div h2 span {
+      .mt-c-stats-section-column--second div h2 span {
         font-weight: normal;
         font-size: 2.6rem; }
-  .stats-section__column--second h4 {
+  .mt-c-stats-section-column--second h4 {
     color: #00001a;
     margin-bottom: 1rem;
     font-size: 1.2rem; }
-  .stats-section__column--second p {
+  .mt-c-stats-section-column--second p {
     text-align: justify;
     color: #003d66;
     font-size: 0.8rem; }
@@ -131,49 +131,49 @@ hr {
   margin: 1rem 0;
   width: 3rem; }
 
-.stats-section__column--third {
+.mt-c-stats-section-column--third {
   width: 40%; }
-  .stats-section__column--third p {
+  .mt-c-stats-section-column--third p {
     color: #003d66;
     font-size: 0.8rem; }
-  .stats-section__column--third img {
+  .mt-c-stats-section-column--third img {
     width: 100%;
     height: 70%;
     margin-top: 2rem; }
 
-.solutions-section {
+.mt-l-solutions-section {
   display: flex;
   flex-direction: row; }
 
-.solutions-section__column {
+.mt-u-solutions-section__column {
   padding: 0 2rem; }
 
-.solutions-section__column--first {
+.mt-c-solutions-section-column--first {
   background-color: #ff0000;
   padding: 2rem;
   width: 26%;
   margin-left: 2rem; }
-  .solutions-section__column--first h4 {
+  .mt-c-solutions-section-column--first h4 {
     color: #fff;
     font-size: 1rem;
     margin-bottom: 1rem; }
-  .solutions-section__column--first p {
+  .mt-c-solutions-section-column--first p {
     color: #fff;
     font-size: 0.6rem;
     font-weight: bold;
     line-height: 1.2rem; }
-  .solutions-section__column--first a {
+  .mt-c-solutions-section-column--first a {
     display: inline-block;
     margin-top: 1.5rem;
     text-decoration: none;
     border: 1px solid #fff;
     color: #fff;
     padding: 0.5rem 1rem; }
-    .solutions-section__column--first a:hover {
+    .mt-c-solutions-section-column--first a:hover {
       background: #fff;
       color: #ff0000; }
 
-.solutions-section__column--second {
+.mt-c-solutions-section-column--second {
   margin-left: 2.5rem;
   width: 100%; }
 
@@ -185,64 +185,64 @@ h2 {
     font-weight: normal;
     font-size: 2.6rem; }
 
-.solutions-section__chemicals {
+.mt-c-solutions-section__chemicals {
   display: flex; }
-  .solutions-section__chemicals div {
+  .mt-c-solutions-section__chemicals div {
     margin-top: 1rem;
     padding: 1rem;
     background: #edf1f8; }
-    .solutions-section__chemicals div h4 {
+    .mt-c-solutions-section__chemicals div h4 {
       color: #ff0000;
       font-size: 1rem;
       margin-bottom: 1rem; }
-    .solutions-section__chemicals div p {
+    .mt-c-solutions-section__chemicals div p {
       color: #003d66;
       font-size: 0.8rem; }
 
-.expertise-section {
+.mt-l-expertise-section {
   padding-left: 28rem; }
-  .expertise-section h4 {
+  .mt-l-expertise-section h4 {
     text-transform: uppercase;
     border-top: 1px solid #d3d3d3;
     padding: 1rem 0;
     font-size: 1rem; }
-  .expertise-section h4:last-child {
+  .mt-l-expertise-section h4:last-child {
     border-bottom: 1px solid #d3d3d3; }
-  .expertise-section p {
+  .mt-l-expertise-section p {
     color: #003d66;
     margin-bottom: 1rem;
     font-size: 0.8rem; }
 
-.info-section {
+.mt-l-info-section {
   display: flex;
   padding: 1rem 10rem;
   margin-top: 4rem;
   background: #edf1f8; }
 
-.info-section__part {
+.mt-u-info-section__part {
   width: 50%; }
 
-.info-section__part--left h4 {
+.mt-c-info-section-part--left h4 {
   font-size: 1.2rem;
   margin: 2rem 0; }
-.info-section__part--left img {
+.mt-c-info-section-part--left img {
   width: 1.5rem; }
 
-.info-section__part--right h5 {
+.mt-c-info-section-part--right h5 {
   font-size: 1rem;
   text-transform: uppercase;
   font-size: 1rem;
   padding: 2rem 0; }
-.info-section__part--right div {
+.mt-c-info-section-part--right div {
   border: 1px solid #d3d3d3; }
-  .info-section__part--right div p {
+  .mt-c-info-section-part--right div p {
     display: inline;
     color: #003d66;
     font-size: 1rem;
     line-height: 2.6rem;
     margin-left: 1rem;
     font-size: 0.8rem; }
-  .info-section__part--right div a {
+  .mt-c-info-section-part--right div a {
     font-size: 0.8rem;
     float: right;
     text-decoration: none;
