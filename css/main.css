@@ -196,6 +196,8 @@ hr {
 
 .mt-c-stats-section-column--third {
   width: 40%; }
+  .mt-c-stats-section-column--third a {
+    display: none; }
   .mt-c-stats-section-column--third p {
     color: #003d66;
     font-size: 0.8rem; }
@@ -297,6 +299,66 @@ h2 {
       width: 60%; }
 
   .mt-l-expertise-section {
-    padding: 2rem 10rem 0; } }
+    padding: 2rem 10rem 0; }
+
+  footer nav {
+    display: none; }
+  footer p {
+    float: none;
+    text-align: center; } }
+@media (max-width: 820px) {
+  .mt-c-header__menu {
+    padding: 0;
+    display: block; }
+    .mt-c-header__menu a {
+      display: block;
+      text-align: center;
+      width: 100%; }
+
+  .mt-c-consultancy {
+    display: none; }
+
+  .mt-c-stats-section-column--second h2 {
+    text-align: center; }
+
+  .mt-c-stats-section-column--third img {
+    display: none; }
+  .mt-c-stats-section-column--third a {
+    display: block;
+    width: 15rem;
+    color: #fff;
+    background: #ff0000;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    margin-top: 2rem; }
+
+  .mt-c-stats-section-column--first {
+    border: 1px dashed #ff0000;
+    padding: 2rem 2rem;
+    margin-top: 1rem; }
+    .mt-c-stats-section-column--first li {
+      display: block;
+      width: 100%; }
+
+  .mt-l-solutions-section {
+    padding: 1rem 2rem; }
+    .mt-l-solutions-section .mt-c-solutions-section-column--first {
+      width: 40%;
+      height: 40%;
+      margin-top: 9rem; }
+    .mt-l-solutions-section .mt-c-solutions-section__chemicals {
+      flex-direction: column; }
+      .mt-l-solutions-section .mt-c-solutions-section__chemicals div {
+        margin: 0; }
+
+  .mt-l-expertise-section {
+    padding: 1rem 3rem; }
+
+  footer p {
+    float: none; }
+  footer nav {
+    float: none; } }
 
 /*# sourceMappingURL=main.css.map */

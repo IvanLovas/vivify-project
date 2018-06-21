@@ -135,6 +135,10 @@ hr {
 .mt-c-stats-section-column--third {
     width: 40%;
 
+    a {
+        display: none;
+    }
+
     p {
         color: $section-font;
         font-size: 0.8rem;
@@ -285,6 +289,100 @@ h2 {
         padding: 2rem 10rem 0;
     }
         
+    footer {
+        nav {
+            display: none;
+        }
+        p {
+            float: none;
+            text-align: center;
+        }
+    }
+}
+
+@media #{$mobile} {
+        .mt-c-header__menu {
+            padding: 0;
+            display: block;
+            a {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        .mt-c-consultancy {
+            display: none;
+        }
+
+        .mt-c-stats-section-column--second {
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .mt-c-stats-section-column--third {
+            img {
+                display: none;
+            }
+
+            a {
+                display: block;
+                width: 15rem;
+                color: $white-col;
+                background: $red-col;
+                text-decoration: none;
+                margin: 0 auto;
+                padding: 1rem 3rem;
+                font-weight: bold;
+                margin-top: 2rem;
+                
+            }
+        }
+        
+        .mt-c-stats-section-column--first {
+            border: 1px dashed $red-col;
+            padding: 2rem 2rem;
+            margin-top: 1rem;
+
+            li {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        .mt-l-solutions-section {
+           padding: 1rem 2rem;
+
+           .mt-c-solutions-section-column--first {
+               width: 40%;
+               height: 40%;
+               margin-top: 9rem;
+           } 
+            
+           .mt-c-solutions-section__chemicals {
+               flex-direction: column;
+
+             div {
+                margin: 0;
+               }
+           }
+
+        }
+
+        .mt-l-expertise-section {
+            padding: 1rem 3rem;
+        }
+
+        footer {
+            p {
+                float: none;
+            }  
+            nav {
+                float: none;
+            }
+        }
 }
 
 
