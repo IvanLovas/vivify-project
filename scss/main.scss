@@ -294,9 +294,12 @@ h2 {
     }
     
     footer {
-        nav {
-            display: none;
-        }
+        flex-direction: row;
+
+        // nav {
+         
+        // }
+
         p {
             float: none;
             text-align: center;
