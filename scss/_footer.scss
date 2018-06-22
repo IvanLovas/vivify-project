@@ -1,0 +1,35 @@
+footer {
+    background: $light-blue;
+    padding: 2rem 10rem;
+
+    p {
+        float: left;
+        font-size: 0.7em;
+        color: $section-font;
+    }
+
+    nav {
+        float: left;
+        padding-left: 4rem;
+
+        ul {
+
+            li {
+                display: inline-block;
+                transform: skew(-20deg);
+                border-right: 1px solid $light-grey;
+            }
+        }   
+
+        a {
+            display: inline-block;
+            transform: skew(20deg); 
+            text-decoration: none;
+            font-size: 0.8rem;
+            padding: 0 0.5rem;
+            color: $section-font;
+           
+        }
+    }
+
+}
