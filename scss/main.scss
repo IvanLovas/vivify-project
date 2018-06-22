@@ -30,7 +30,7 @@ section {
     padding: 3rem 8rem 0;
 }
 
-.mt-l-stats-section {
+.mt-c-stats-section {
     display: flex;
     flex-direction: row;
 }
@@ -230,7 +230,7 @@ h2 {
 
 }
 
-.mt-l-expertise-section {
+.mt-c-expertise-section {
     padding-left: 28rem;
 
     h4 {
@@ -252,7 +252,7 @@ h2 {
 }
 
 @media #{$tablet} {
-    .mt-l-stats-section {
+    .mt-c-stats-section {
         display: flex;
         flex-direction: column;
         padding: 2rem 4rem;
@@ -285,7 +285,7 @@ h2 {
         }
     }
 
-    .mt-l-expertise-section {
+    .mt-c-expertise-section {
         padding: 2rem 10rem 0;
     }
 
@@ -378,7 +378,7 @@ h2 {
 
         }
 
-        .mt-l-expertise-section {
+        .mt-c-expertise-section {
             padding: 1rem 3rem;
         }
 

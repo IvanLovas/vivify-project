@@ -36,22 +36,22 @@
       color: #ff0000;
       border-bottom: 2px solid #ff0000; }
 
-footer {
+.mt-c-footer {
   display: flex;
   background: #edf1f8;
   padding: 2rem 10rem; }
-  footer p {
+  .mt-c-footer p {
     float: left;
     font-size: 0.7em;
     color: #003d66; }
-  footer nav {
+  .mt-c-footer nav {
     display: flex;
     padding-left: 4rem; }
-    footer nav ul li {
+    .mt-c-footer nav ul li {
       display: inline-block;
       transform: skew(-20deg);
       border-right: 1px solid #d3d3d3; }
-    footer nav a {
+    .mt-c-footer nav a {
       display: inline-block;
       transform: skew(20deg);
       text-decoration: none;
@@ -65,7 +65,7 @@ footer {
 .mt-u-info-section__part {
   width: 50%; }
 
-.mt-l-info-section {
+.mt-c-info-section {
   display: flex;
   padding: 1rem 10rem;
   margin-top: 4rem;
@@ -120,7 +120,7 @@ footer {
 section {
   padding: 3rem 8rem 0; }
 
-.mt-l-stats-section {
+.mt-c-stats-section {
   display: flex;
   flex-direction: row; }
 
@@ -256,33 +256,33 @@ h2 {
       color: #003d66;
       font-size: 0.8rem; }
 
-.mt-l-expertise-section {
+.mt-c-expertise-section {
   padding-left: 28rem; }
-  .mt-l-expertise-section h4 {
+  .mt-c-expertise-section h4 {
     text-transform: uppercase;
     border-top: 1px solid #d3d3d3;
     padding: 1rem 0;
     font-size: 1rem; }
-  .mt-l-expertise-section h4:last-child {
+  .mt-c-expertise-section h4:last-child {
     border-bottom: 1px solid #d3d3d3; }
-  .mt-l-expertise-section p {
+  .mt-c-expertise-section p {
     color: #003d66;
     margin-bottom: 1rem;
     font-size: 0.8rem; }
 
 @media (max-width: 1250px) {
-  .mt-l-stats-section {
+  .mt-c-stats-section {
     display: flex;
     flex-direction: column;
     padding: 2rem 4rem; }
-    .mt-l-stats-section .mt-c-stats-section__column {
+    .mt-c-stats-section .mt-c-stats-section__column {
       width: 100%; }
-    .mt-l-stats-section .mt-c-stats-section-column--first {
+    .mt-c-stats-section .mt-c-stats-section-column--first {
       order: 3;
       width: 100%; }
-      .mt-l-stats-section .mt-c-stats-section-column--first h3, .mt-l-stats-section .mt-c-stats-section-column--first ul {
+      .mt-c-stats-section .mt-c-stats-section-column--first h3, .mt-c-stats-section .mt-c-stats-section-column--first ul {
         text-align: center; }
-      .mt-l-stats-section .mt-c-stats-section-column--first li {
+      .mt-c-stats-section .mt-c-stats-section-column--first li {
         display: inline-block;
         padding-right: 1rem; }
 
@@ -293,7 +293,7 @@ h2 {
     .mt-c-stats-section-column--third img {
       width: 60%; }
 
-  .mt-l-expertise-section {
+  .mt-c-expertise-section {
     padding: 2rem 10rem 0; }
 
   .mt-c-info-section-part--right {
@@ -351,7 +351,7 @@ h2 {
       .mt-l-solutions-section .mt-c-solutions-section__chemicals div {
         margin: 0; }
 
-  .mt-l-expertise-section {
+  .mt-c-expertise-section {
     padding: 1rem 3rem; }
 
   footer p {
