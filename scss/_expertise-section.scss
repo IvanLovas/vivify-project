@@ -1,0 +1,36 @@
+.mt-c-expertise-section {
+    padding-left: 28rem;
+
+    @media screen and (max-width: $mt-screen-tablet) {
+        padding: 2rem 10rem 0;
+    }
+
+    @media screen and (max-width: $mt-screen-mobile) {
+        padding: 1rem 3rem;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        border-top: 1px solid $color-border;
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    h4:last-child {
+        border-bottom: 1px solid $color-border;
+    }
+
+    p {
+        color: $color-main-font;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .mt-c-info-section-part--right {
+
+        @media screen and (max-width: $mt-screen-tablet) {
+            margin-left: 3rem;
+        }
+    }
+    
+}
