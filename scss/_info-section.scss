@@ -2,7 +2,7 @@
     display: flex;
     padding: 1rem 10rem;
     margin-top: 4rem;
-    background: $light-blue;
+    background: $color-background;
 }
 
 .mt-c-info-section-part--left {
@@ -31,24 +31,24 @@
             padding: 1rem;
             width: 20rem;
             font-size: 1rem;
-            background: $light-blue;
-            border: 1px solid $light-grey;
+            background: $color-background;
+            border: 1px solid $color-border;
         }
 
         .submit {
-            color: $white-col;
-            background: $red-col;
+            color: $color-white-font;
+            background: $color-primary;
             padding: 1rem 3rem;
             font-size: 1rem;
         }
     }
 
     // div {
-    //     border: 1px solid $light-grey;
+    //     border: 1px solid $color-border;
         
     //     p {
     //         display: inline;
-    //         color: $section-font;
+    //         color: $color-main-font;
     //         font-size: 1rem;
     //         line-height: 2.6rem;
     //         margin-left: 1rem;
@@ -61,8 +61,8 @@
     //         float: right;
     //         text-decoration: none;
     //         padding: 0.8rem 1.8rem;
-    //         color: $white-col;
-    //         background: $red-col;
+    //         color: $color-white-font;
+    //         background: $color-primary;
     //         font-weight: bold;
     //     }
     // }

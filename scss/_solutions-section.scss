@@ -1,0 +1,95 @@
+.mt-l-solutions-section {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: $mt-screen-mobile) {
+        padding: 1rem 2rem;
+    }
+}
+
+.mt-c-solutions-section-column--first {
+    background-color: $color-primary;
+    padding: 2rem;
+    width: 26%;
+    margin-left: 2rem;
+
+    @media screen and (max-width: $mt-screen-mobile) {
+        width: 40%;
+        height: 40%;
+        margin-top: 9rem;
+    }
+
+    h4 {
+        color: $color-white-font;
+        font-size: 1rem; 
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: $color-white-font;
+        font-size: 0.6rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        border: 1px solid $color-white-font;
+        color: $color-white-font;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            background: $color-white-font;
+            color: $color-primary;
+
+        }
+    }
+}
+
+.mt-c-solutions-section-column--second {
+    margin-left: 2.5rem;
+    width: 100%;    
+}
+
+h2 {
+    color: $color-heading;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    span {
+        font-weight: normal;
+        font-size: 2.6rem;
+    }
+}
+
+.mt-c-solutions-section__chemicals {
+    display: flex;
+    
+    @media screen and (max-width: $mt-screen-mobile) {
+        flex-direction: column;
+    }
+
+    div {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: $color-background;
+
+        @media screen and (max-width: $mt-screen-mobile) {
+            margin: 0;
+        }
+
+        h4 {
+            color: $color-primary;
+            font-size: 1rem;
+            margin-bottom: 1rem; 
+        }
+
+        p {
+           color: $color-main-font;
+           font-size: 0.8rem; 
+        }
+    }
+
+}

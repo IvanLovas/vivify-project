@@ -1,42 +1,16 @@
 .mt-c-header {
-    display: flex;
-    flex-direction: column;
+    padding: 1rem;
 }
 
-.mt-c-header__logo {
-        display: flex;
-        justify-content: center;
-
-    .mt-c-header__img {
-        display: inline-block;
-            
-        img {
-            width: 4rem;
-        }
-    }
-
-    .mt-c-header__name {
-        display: inline-block;
-        padding-top: 1rem;
-        padding-left: 1rem;
-
-        h4 {          
-            font-size: 1.3rem;
-            color: $head-col;
-        }
-
-        h5 {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            color: $font-col;
-        }
-    }
-}
-
-.mt-c-header__menu {
+.mt-c-navbar {
         display: flex;
         padding-left: 8rem;
-        border-top: 1px solid $light-grey;
+        border-top: 1px solid $color-border;
+
+        @media screen and (max-width: $mt-screen-mobile) {
+            padding: 0;
+            display: block;
+        }
             
         a {
             text-decoration: none;
@@ -44,11 +18,17 @@
             padding: 1rem 0;
             margin: 0 1rem;
             font-size: 0.8rem;
-            color: $head-col;
+            color: $color-heading;
+
+            @media screen and (max-width: $mt-screen-mobile) {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
 
             &:hover {
-                color: $red-col;
-                border-bottom: 2px solid $red-col;
+                color: $color-primary;
+                border-bottom: 2px solid $color-primary;
         }
 
     }

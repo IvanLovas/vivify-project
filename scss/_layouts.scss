@@ -1,0 +1,12 @@
+.mt-l-main-layout {
+    display: grid;
+
+    @supports not (display: grid) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.mt-l-main-layout__header {
+    text-align: center;
+}
